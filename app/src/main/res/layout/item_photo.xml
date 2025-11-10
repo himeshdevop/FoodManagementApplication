@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@android:color/black"
+    android:backgroundTint="#1D2261"
+    android:orientation="vertical"
+    android:padding="16dp"> <!-- Set background to black -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray" /> <!-- Optional: Add background for visibility -->
+
+    <Button
+        android:id="@+id/buttonUploadCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/button_color"
+        android:text="Upload Cloud"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonCopyCloudLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/button_color"
+        android:text="Copy Cloud Link"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

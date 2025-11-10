@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@android:color/black"
+    android:backgroundTint="#26347E"
+    android:orientation="vertical"
+    android:padding="16dp"> <!-- Set background to black -->
+
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" /> <!-- Set text color to white -->
+
+    <TextView
+        android:id="@+id/tvMealType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Meal Type"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" /> <!-- Set text color to white -->
+
+    <TextView
+        android:id="@+id/tvCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Calories"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" /> <!-- Set text color to white -->
+
+</LinearLayout>
